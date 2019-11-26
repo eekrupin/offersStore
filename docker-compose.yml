@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+
+  nginx:
+    build:
+      context: ./
+      dockerfile: Dockerfile  #сборка из докер файла
+    ports:
+      - 80:80
+    env_file:
+      - .env
+

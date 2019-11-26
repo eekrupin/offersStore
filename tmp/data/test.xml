@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2019-11-21 20:30">
+  <shop>
+    <name><![CDATA[Некий автомаг]]></name>
+    <company><![CDATA[Некий автомаг]]></company>
+    <url><![CDATA[https://avtomag.ru/]]></url>
+    <categories>
+      <category id="1"><![CDATA[Автозапчасти]]></category>
+	  <category id="2"><![CDATA[Автозапчасти2]]></category>
+    </categories>
+    <offers>
+      <offer id="5748503" available="true" group_id="3">
+        <name><![CDATA[SUP14225797]]></name>
+        <price><![CDATA[1480]]></price>
+        <categoryId><![CDATA[1]]></categoryId>
+        <vendor><![CDATA[Eksin]]></vendor>
+        <vendorCode><![CDATA[[]]]></vendorCode>
+        <description><![CDATA[SUP14225797]]></description>
+        <shipment-options>
+          <option order-before="12" days="3"></option>
+        </shipment-options>
+        <delivery-options>
+          <option order-before="15" days="4" cost="300"></option>
+        </delivery-options>
+        <param name="Размер экрана" unit="дюйм">27</param>
+        <param name="Материал">алюминий</param>
+        <condition type="likenew">
+          <reason>Повреждена упаковка</reason>
+        </condition>
+        <age unit="year">18</age>
+      </offer>
+      <offer id="5748504" available="true">
+        <name><![CDATA[SUP14225797]]></name>
+        <price><![CDATA[401]]></price>
+        <categoryId><![CDATA[1]]></categoryId>
+        <vendor><![CDATA[FARET]]></vendor>
+        <vendorCode><![CDATA[[]]]></vendorCode>
+        <description><![CDATA[SUP14225797]]></description>
+        <shipment-options>
+          <option order-before="12" days="3"/>
+        </shipment-options>
+        <delivery-options>
+          <option order-before="15" days="4"></option>
+        </delivery-options>
+      </offer>
+      <offer id="3529107" available="true">
+        <name><![CDATA[1112 004-SX_=1101 04 !колодки дисковые п. Peugeot]]></name>
+        <price><![CDATA[981]]></price>
+        <categoryId><![CDATA[1]]></categoryId>
+        <vendor><![CDATA[STELLOX]]></vendor>
+        <vendorCode><![CDATA[1112004sx]]></vendorCode>
+        <description><![CDATA[1112 004-SX_=1101 04 !колодки дисковые п. Peugeot]]></description>
+        <shipment-options>
+          <option order-before="12" days="3"/>
+        </shipment-options>
+      </offer>
+      <offer id="6037716" available="true">
+        <name><![CDATA[1112-0072-SX_амортизатор задний масляный! Mazda E Series 1.4-2.2 84-99]]></name>
+        <price><![CDATA[735]]></price>
+        <categoryId><![CDATA[1]]></categoryId>
+        <vendor><![CDATA[STELLOX]]></vendor>
+        <vendorCode><![CDATA[11120072_sx]]></vendorCode>
+        <description><![CDATA[1112-0072-SX_амортизатор задний масляный! Mazda E Series 1.4-2.2 84-99]]></description>
+        <shipment-options>
+          <option order-before="12" days="2"/>
+        </shipment-options>
+      </offer>
+      <offer id="3529115" available="true">
+        <name><![CDATA[1112-0072-SX_амортизатор задний масляный! Mazda E Series 1.4-2.2 84-9]]></name>
+        <price><![CDATA[670]]></price>
+        <categoryId><![CDATA[1]]></categoryId>
+        <vendor><![CDATA[STELLOX]]></vendor>
+        <vendorCode><![CDATA[11120072sx]]></vendorCode>
+        <description><![CDATA[1112-0072-SX_амортизатор задний масляный! Mazda E Series 1.4-2.2 84-9]]></description>
+        <shipment-options>
+          <option order-before="12" days="3"/>
+        </shipment-options>
+      </offer>
+      <offer id="6037717" available="true">
+        <name><![CDATA[1112-0102-SX_амортизатор передний масляный! Nissan Pick-Up 4WD 98&gt;]]></name>
+        <price><![CDATA[1215]]></price>
+        <categoryId><![CDATA[1]]></categoryId>
+        <vendor><![CDATA[STELLOX]]></vendor>
+        <vendorCode><![CDATA[11120102_sx]]></vendorCode>
+        <description><![CDATA[1112-0102-SX_амортизатор передний масляный! Nissan Pick-Up 4WD 98&gt;]]></description>
+        <shipment-options>
+          <option order-before="12" days="2"/>
+        </shipment-options>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
