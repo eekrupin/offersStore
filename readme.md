@@ -37,10 +37,12 @@ docker-compose up --build
 
 ## Поднимаем cassandra локально:
 
-docker run -p 9042:9042 --name cassandra -d cassandra:3.11.5
+docker network create testnetwork
 
-docker run --name cassandra2 -d -e CASSANDRA_SEEDS=cassandra cassandra:3.11.5
+docker run -p 9042:9042 --name cassandra --network testnetwork -d cassandra:3.11.5
+
+docker run --name cassandra2 --network testnetwork -d -e CASSANDRA_SEEDS=cassandra cassandra:3.11.5
 
 Проверяем работу cassandra
 
-docker run -it --rm cassandra cqlsh cassandra
+docker run -it --network testnetwork --rm cassandra cqlsh cassandra
